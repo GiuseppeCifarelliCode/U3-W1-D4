@@ -59,7 +59,8 @@ fetch('./starter/Abbigliamento.json')
             cardInCart.innerHTML = `<div class="card">
             <div class="card-body d-flex flex-column">
               <h5 class="card-title">${button.parentElement?.innerText}</h5>
-              <a href="#" class="btn btn-primary buy-button">Buy</a>
+              <a href="#" class="btn btn-primary buy-button mb-3">Buy</a>
+              <a href="#" class="btn btn-primary buy-button">Remove</a>
             </div>
           </div>`
           cartReference.appendChild(cardInCart)
